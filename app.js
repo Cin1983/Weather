@@ -1,6 +1,4 @@
 //Init weather object
-
-
 const weather = new Weather('Boston', 'MA');
 
 weather.getWeather()
