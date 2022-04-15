@@ -16,7 +16,7 @@ class UI {
         this.desc.textContent = weather.weather[0].description;
         this.details.innerText = weather.main.temp;
         // this.icon.textContent = weather.main.pressure;
-        // this.humidity.textContent = weather.main.humidity;
+        this.humidity.textContent = weather.main.humidity;
         // this.feelsLike.textContent = weather.main.feels_like;
         // this.dewpoint.textContent = weather.main.temp_max;
         // this.wind.textContent = weather.wind.deg;
